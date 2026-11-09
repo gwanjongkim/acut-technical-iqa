@@ -1,5 +1,9 @@
-# Download Model Artifacts
+# Model Artifacts — A-CUT Technical IQA Umbrella Benchmark
 
-Due to GitHub file size limits, model weights are hosted externally.
+## Included in Repository (`models/model_files/`)
+- `koniq_mobile.tflite (9.10 MB, SHA256: 67faf88050c7)`
+- `flive_image_mobile.tflite (9.10 MB, SHA256: 58aee1e11f6e)`
 
-Please refer to GitHub Releases to download the model files and place them in the `models/model_files/` directory.
+## Notes on Large Checkpoints (>50 MB)
+- Mobile TFLite deliverables under 50 MB are committed directly inside `models/model_files/`.
+- Any artifact exceeding GitHub's 50 MB / 100 MB git blob limit (such as `icaa_dat_tf_native_fp16.tflite` at 167.74 MB) is attached to this repository's **GitHub Releases** page.
